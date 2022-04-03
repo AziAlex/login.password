@@ -13,7 +13,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    
+
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, .7);
     border-top: 5px solid rgba(255, 255, 255, 0.4);
@@ -29,19 +29,21 @@ body {
     font-size: 30px;
     text-transform: uppercase;
 }
+
 /* -------------окна для регистрацый */
 .wraper__login-2 {
 
     position: absolute;
     top: 50%;
     left: 50%;
-    
+
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, .7);
     border-top: 5px solid rgba(255, 255, 255, 0.4);
 
 
 }
+
 .wraper__login-2 h2 {
     margin: 30px 85px;
     padding: 0;
@@ -51,6 +53,8 @@ body {
     text-transform: uppercase;
 }
 /* ------------------конец */
+    
+/*  */
 .input-form {
     margin: 15px 40px;
     text-align: center;
@@ -109,3 +113,21 @@ body {
 .forget-sing-up a:hover {
     color: #0fc3f5;
 }
+
+/* --------------- */
+.forget-up {
+    margin-top: 20px;
+}
+    .forget-up a {
+    display: block;
+    padding: 0 0 20px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.forget-up a:hover {
+    color: #0fc3f5;
+}
+
